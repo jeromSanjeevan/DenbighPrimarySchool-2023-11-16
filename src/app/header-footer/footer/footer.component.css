@@ -1,0 +1,14 @@
+/* footer.component.css */
+
+.footer {
+  background-color: var(--primary-color) !important;
+  color: #495057;
+}
+
+.footer a {
+  color: #007bff;
+}
+
+.footer a:hover {
+  color: #0056b3;
+}

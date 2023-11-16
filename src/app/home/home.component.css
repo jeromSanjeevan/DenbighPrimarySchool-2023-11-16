@@ -1,0 +1,50 @@
+
+/* Slider CSS Styles Starts Here */
+.c-item {
+  height: 780px;
+}
+
+.c-image {
+  height: 100%;
+  object-fit: cover;
+  /* filter: brightness(0.6); */
+}
+
+.caption_logo{
+  margin-top: 50px;
+  height: 40%;
+
+}
+
+.carousel{
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+
+  .c-item {
+    height: 380px;
+  }
+
+  .c-image {
+    height: 100%;
+    object-fit: cover;
+    /* filter: brightness(0.6); */
+  }
+
+  .caption_logo{
+    margin-top: 20px;
+    height: 40%;
+
+  }
+
+  h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.3rem;
+  }
+
+}
+
+
+/* Slider CSS Styles Ends Here */

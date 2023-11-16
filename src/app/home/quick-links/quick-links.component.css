@@ -1,0 +1,91 @@
+.quick-links-1 {
+  background-color: green;
+}
+
+.quick-links-2 {
+  background-color: red;
+}
+
+.quick-links-3 {
+  background-color: orange;
+}
+
+.quick-links-4 {
+  background-color: rgb(23, 155, 155);
+}
+
+.quick-links-5 {
+  background-color: rgb(41, 3, 77);
+}
+
+.quick-links-6 {
+  background-color: rgb(38, 171, 211);
+}
+
+
+
+.col-md-2 p {
+  color: white;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+
+.col-md-2 a {
+  text-decoration: none;
+  color: inherit;
+  opacity: 1;
+  /* 1 is fully opaque */
+  transition: opacity 0.3s;
+  /* Add a smooth transition effect */
+}
+
+/* Change opacity on hover */
+.col-md-2 a:hover {
+  opacity: 0.7;
+  /* Reduce opacity to 0.7 on hover (adjust as needed) */
+}
+
+.one-edge-shadow {
+  box-shadow: 0 8px 6px -6px black;
+}
+
+
+@media (max-width: 600px) {
+
+  .col-md-2 {
+    margin-bottom: 10px;
+    border-radius: 30px;
+    max-width: 40%;
+    max-height: 30%;
+    margin-right: 10PX;
+    margin-left: 10PX;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+  }
+
+
+  .fas {
+    font-size: .7rem;
+  }
+
+  .col-md-2 a {
+    text-decoration: none;
+    color: inherit;
+    opacity: 1;
+    /* 1 is fully opaque */
+    transition: opacity 0.3s;
+    /* Add a smooth transition effect */
+  }
+
+  .col-md-2 p {
+    color: white;
+    font-size: .7rem;
+    text-transform: uppercase;
+  }
+
+  .row {
+    justify-content: space-between;
+    margin: 20px;
+  }
+}

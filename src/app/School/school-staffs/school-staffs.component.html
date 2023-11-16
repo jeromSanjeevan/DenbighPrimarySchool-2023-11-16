@@ -1,0 +1,68 @@
+<div class=" main-container">
+  <div class="container-fluid">
+
+    <div class="row">
+
+      <!-- Column 1 - 15% width on larger screens -->
+      <div class="col-md-2 col-4 d-none d-md-block">
+        <p>Column 1</p>
+      </div>
+
+      <!-- Column 2 - 70% width on larger screens -->
+      <div class="col-md-8 col-12 bg-secondary_1 col-custom-mobile">
+
+        <div class="menu-heading-container">
+          <div class="menu-headings">{{headerHeading}}</div>
+        </div>
+
+        <!-- ========================== SLT  Starts Here  =========================== -->
+        <div class="Staff-group">
+          <div class="Staff-group">
+            <div class="submenu_1"><i class="fa-solid fa-graduation-cap fa-beat-fade"></i>{{slt}}<i
+                class="fa-solid fa-graduation-cap fa-beat-fade"></i></div>
+            <div>
+              <div class="group" *ngFor="let item of SLT">
+                <h4 class="name">{{ item.name }} - <span class="designation"> {{ item.designation }}</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ========================== SLT Ends Here ============================ -->
+
+        <!-- ========================== Year Leaders  Starts Here  =========================== -->
+        <div class="Staff-group">
+          <div class="submenu_1"><i class="fa-solid fa-graduation-cap fa-beat-fade"></i>{{yearLeads}}<i
+              class="fa-solid fa-graduation-cap fa-beat-fade"></i></div>
+          <div>
+            <div class="group" *ngFor="let item of yearLeaders">
+              <h4 class="name">{{ item.name }} - <span class="designation"> {{ item.designation }}</span></h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- ========================== Year Leaders Ends Here ============================ -->
+
+        <!-- ========================== Class Teacher Starts Here  =========================== -->
+        <div class="Staff-group">
+          <div class="submenu_1"><i class="fa-solid fa-graduation-cap fa-beat-fade"></i>{{classTeacher}}<i
+              class="fa-solid fa-graduation-cap fa-beat-fade"></i></div>
+          <div>
+            <div class="group" *ngFor="let item of classTeachers">
+              <h4 class="name">{{ item.name }} - <span class="designation"> {{ item.designation }}</span></h4>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ========================== Class Teacher Ends Here  =========================== -->
+
+      </div>
+
+      <!-- Column 3 - 15% width on larger screens -->
+      <div class="col-md-2 col-12 d-none d-md-block" >
+        <p>Column 3</p>
+      </div>
+
+    </div>
+  </div>
+</div>

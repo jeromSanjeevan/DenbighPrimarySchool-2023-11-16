@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+/* ============================ Common CSS ====================================== */
+
+/* Define root colors */
+:root {
+  --primary-color: #002244;
+  --secondary-color: #2ecc71;
+  --accent-color: #e74c3c;
+}
+
+/* Use root colors in your styles */
+body {
+  /* background-color: var(--primary-color);
+  color: var(--secondary-color); */
+}
+
+
+
+
+
+.main-container {
+  padding-top: 70px;
+}
+
+.menu-heading-container {
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+  height: 5vh;
+  /* Optional: Set the height of the container */
+  background-color: var(--primary-color) !important;
+  color: white;
+}
+
+.menu-headings {
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.submenu_1 {
+  color: snow;
+  font-weight: 600;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 1.6rem;
+  background-color: #380f0b;
+  text-transform: uppercase;
+  text-align: center;
+
+
+}

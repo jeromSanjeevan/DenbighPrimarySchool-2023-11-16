@@ -1,0 +1,242 @@
+<nav class="navbar navbar-expand-lg bg-light fixed-top">
+  <div class="container-fluid mx-auto">
+
+
+    <img class="logo" [src]="navBarLogo" (click)="[scrollToTop(),closeMobileMenu()]" alt="" routerLink="home">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span ><i class="fa-solid fa-bars" style="color: #f7f7f8;"></i></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link active" (click)="[scrollToTop(),closeMobileMenu()] " aria-current="page"
+            routerLink="home"><span><i class="fa-solid fa-house-user fa-fade" style="color: #ffffff; padding-right: 10px;"></i></span>Home</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            School
+          </a>
+          <ul class="dropdown-menu">
+            <li *ngFor="let link of schoolSubMenus">
+              <a class="dropdown-item" (click)="[scrollToTop(),closeMobileMenu()]"
+                [routerLink]="[link.url]">{{link.label}}</a>
+            </li>
+
+            <!-- <li>
+              <hr class="dropdown-divider">
+            </li> -->
+
+            <!-- <li class="nav-item dropend">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Admissions
+              </a>
+              <ul class="dropdown-menu">
+                <li *ngFor="let link of admissionsSubMenus">
+                  <a class="dropdown-item">{{link.label}}</a>
+                </li>
+              </ul>
+            </li> -->
+            <!-- <li>
+              <hr class="dropdown-divider">
+            </li> -->
+            <!-- <li>
+              <a class="dropdown-item" (click)="closeMobileMenu()">Our Policies</a>
+            </li> -->
+            <!-- <li>
+              <hr class="dropdown-divider">
+            </li> -->
+            <!-- <li class="nav-item dropend">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Key Informations
+              </a>
+              <ul class="dropdown-menu">
+                <li *ngFor="let link of keyInformationSubMenus">
+                  <a class="dropdown-item">{{link.label}}</a>
+                </li>
+              </ul>
+            </li> -->
+          </ul>
+        </li>
+
+        <!--  Our Curriculum Section  Here -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Curriculum & Year groups
+          </a>
+          <ul class="dropdown-menu">
+            <li *ngFor="let link of curriculumAndYearGroupsMenu">
+              <a class="dropdown-item" (click)="[scrollToTop(),closeMobileMenu()]"
+                [routerLink]="[link.url]">{{link.label}}</a>
+            </li>
+            <!--
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li> -->
+            <!-- <li class="nav-item dropend">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+
+
+              </ul>
+            </li> -->
+          </ul>
+        </li>
+
+        <!-- Safeguarding Sections Starts Here -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Safeguarding
+          </a>
+          <ul class="dropdown-menu">
+            <li *ngFor="let link of safeguardingMenu">
+              <a class="dropdown-item" (click)="[scrollToTop(),closeMobileMenu()]"
+                [routerLink]="[link.url]">{{link.label}}</a>
+            </li>
+            <!-- <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li> -->
+            <!-- <li class="nav-item dropend">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+
+
+              </ul>
+            </li> -->
+          </ul>
+        </li>
+
+        <!-- School Lunches Sections Starts Here -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            School Lunches
+          </a>
+          <ul class="dropdown-menu">
+            <li *ngFor="let link of  schoolLunchesMenu">
+              <a class="dropdown-item" (click)="[scrollToTop(),closeMobileMenu()]"
+                [routerLink]="[link.url]">{{link.label}}</a>
+            </li>
+
+            <!-- <li><a class="dropdown-item" href="#">Another action</a></li> -->
+            <!-- <li>
+              <hr class="dropdown-divider">
+            </li> -->
+            <!-- <li class="nav-item dropend">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+
+
+              </ul>
+            </li> -->
+          </ul>
+        </li>
+
+
+
+        <!-- Statutory information Section Starts here -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Statutory information
+          </a>
+          <ul class="dropdown-menu">
+            <li *ngFor="let link of  statutoryInformationMenu">
+              <a class="dropdown-item" (click)="[scrollToTop(),closeMobileMenu()]"
+                [routerLink]="[link.url]">{{link.label}}</a>
+            </li>
+          </ul>
+        </li>
+
+        <!-- Parent & Carer Reference information Section Starts here -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Parent & Carer Reference
+          </a>
+          <ul class="dropdown-menu">
+            <li *ngFor="let link of  parentAndCarerReferenceMenu">
+              <a class="dropdown-item" (click)="[scrollToTop(),closeMobileMenu()]"
+                [routerLink]="[link.url]">{{link.label}}</a>
+            </li>
+          </ul>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Our School
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" (click)="closeMobileMenu()" routerLink="headTeacherWelcome">Head Teacher Welcome</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li class="nav-item dropend">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li class="nav-item dropend">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li class="nav-item dropend">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li> -->
+
+      </ul>
+      <!-- <div class="phone-number-container">
+
+        <div class="phone-number"><span><i class="fas fa-info-circle text-white ml"></i></span>Phone: +1 123-456-7890</div>
+      </div> -->
+
+    </div>
+  </div>
+</nav>

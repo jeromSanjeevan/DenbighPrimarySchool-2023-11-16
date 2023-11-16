@@ -1,0 +1,46 @@
+.dropdown-item:hover {
+  background-color: #002244;
+  color: #fcfcfc;
+}
+
+.dropdown .dropdown-menu {
+  display: none;
+}
+
+.dropdown:hover>.dropdown-menu,
+.dropend:hover>.dropdown-menu {
+  display: block;
+  margin-top: .125em;
+  margin-left: .125em;
+}
+
+
+/* Navbar css starts here */
+.logo {
+  height: 50px;
+  padding-left: 40px;
+}
+
+.bg-light {
+  background-color: var(--primary-color) !important;
+  border: none !important;
+  border-width: 0 !important;
+  color: aliceblue;
+}
+
+.navbar-nav .nav-link {
+  /* color: #fff; */
+  color: #ffffff;
+}
+
+/*  =================================== Navbar css ends here  =================================== */
+
+
+/*  ===================================Toggler styles starts here   ===================================*/
+
+/* Toggler styles starts here */
+.navbar-toggler {
+  border-color: #fcfcfc;
+}
+
+/*  ===================================Toggler styles ends here   ===================================*/
