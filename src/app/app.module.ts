@@ -10,6 +10,10 @@ import { QuickLinksComponent } from './home/quick-links/quick-links.component';
 import { SubHeaderComponent } from './header-footer/sub-header/sub-header.component';
 import { SchoolStaffsComponent } from './School/school-staffs/school-staffs.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { BehaviourPolicyComponent } from './safeguarding/behaviour-policy/behaviour-policy.component';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { FormsModule } from '@angular/forms';
+import { VisionAndValuesComponent } from './School/vision-and-values/vision-and-values.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +24,10 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     QuickLinksComponent,
     SubHeaderComponent,
     SchoolStaffsComponent,
+    BehaviourPolicyComponent,
+    VisionAndValuesComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule,PdfViewerModule, FormsModule],
   providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent],
 })

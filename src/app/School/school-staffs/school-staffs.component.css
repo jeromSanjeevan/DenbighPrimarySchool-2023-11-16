@@ -1,9 +1,7 @@
 /* three-column-layout.component.css */
 
 /*  =================================== Three Coulumn CSS Starts here  =================================== */
-.container-fluid {
-  padding: 20px;
-}
+
 
 .row {
   margin: 0;
@@ -32,8 +30,9 @@
 
 .Staff-group {
   background-color: #C3EEF9;
-  margin-top: 20px;
-  border-radius: 10px;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
 
 .fa {
@@ -85,10 +84,24 @@
   padding-left: 8px;
 }
 
+.fa-circle-chevron-right{
+  padding-right: 8px;
+  color: rgb(223, 187, 47);
+}
+
 
 @media (max-width: 767px) {
-  .row {
-    margin: 0;
-    width: 100%;
-  }
+.name {
+  font-size: 0.8rem;
+}
+.designation{
+  font-size: 0.6rem;
+}
+.group {
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+  margin-top: 3px;
+
+}
 }

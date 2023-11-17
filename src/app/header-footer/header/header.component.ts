@@ -11,7 +11,7 @@ export class HeaderComponent {
 
   schoolSubMenus = [
     { label: 'Headteacher’s Welcome', url: 'headTeacherWelcome' },
-    { label: 'School Vision and Values', url: 'visionAndValue' },
+    { label: 'School Vision and Values', url: 'home/vision-and-values' },
     { label: 'School Governance', url: '#' },
     { label: 'School Staff', url: 'home/school-staff' },
     { label: 'House System', url: '#' },
@@ -40,7 +40,7 @@ export class HeaderComponent {
   safeguardingMenu = [
     { label: 'Safeguarding at Denbigh', url: '/home' },
     { label: 'Safeguarding Policy', url: '/about' },
-    { label: 'Behaviour Policy', url: '/about' },
+    { label: 'Behaviour Policy', url: 'safeguarding/behaviour-policy' },
     { label: 'Attendance', url: '/home' },
     { label: 'GDPR & Data Protection', url: '/about' },
   ];
