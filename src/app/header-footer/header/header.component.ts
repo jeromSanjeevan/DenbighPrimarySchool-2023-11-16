@@ -65,8 +65,9 @@ export class HeaderComponent {
     { label: 'The School Day', url: '/about' },
     { label: '2023-23 Academic Calendar', url: 'acadamicCalender' },
     { label: 'News and Events', url: '/home' },
-    { label: 'School Uniform', url: '/about' },
+    { label: 'School Uniform', url: 'parent-and-carer/school-uniform' },
     { label: 'School Contact Details', url: '/about' },
+    { label: 'Extended School Provision', url: 'parent-and-carer/extended-school-provision' },
   ];
   constructor() {}
 

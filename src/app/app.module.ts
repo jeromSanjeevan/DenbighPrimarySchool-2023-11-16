@@ -14,6 +14,8 @@ import { BehaviourPolicyComponent } from './safeguarding/behaviour-policy/behavi
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { FormsModule } from '@angular/forms';
 import { VisionAndValuesComponent } from './School/vision-and-values/vision-and-values.component';
+import { SchoolUniformComponent } from './parent-and-carer-refference/school-uniform/school-uniform.component';
+import { ExtendedSchoolProvisionComponent } from './parent-and-carer-refference/extended-school-provision/extended-school-provision.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { VisionAndValuesComponent } from './School/vision-and-values/vision-and-
     SchoolStaffsComponent,
     BehaviourPolicyComponent,
     VisionAndValuesComponent,
+    SchoolUniformComponent,
+    ExtendedSchoolProvisionComponent,
   ],
   imports: [BrowserModule, AppRoutingModule,PdfViewerModule, FormsModule],
   providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],

@@ -12,6 +12,10 @@
 body {
   /* background-color: var(--primary-color);
   color: var(--secondary-color); */
+  /* font-family: 'Nunito Sans', sans-serif; */
+  font-family: 'Montserrat Alternates', sans-serif;
+  /* font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Roboto', sans-serif; */
 }
 
 
@@ -41,6 +45,28 @@ body {
   font-size: 1.4rem;
 }
 
+.main-menu {
+  color: white;
+  font-weight: 600;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.4rem;
+  background-color: rgb(86, 100, 7);
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.main-menu-content {
+  background-color: #e9f1f1;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-bottom: 25px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  text-align: left;
+
+}
+
 .submenu_1 {
   color: rgb(223, 187, 47);
   font-weight: 600;
@@ -51,12 +77,84 @@ body {
   text-transform: uppercase;
   text-align: center;
   border-top-left-radius: 25px;
+  font-family: 'Nunito Sans', sans-serif;
 
 
 }
-.main-content{
+
+.main-content {
   margin-top: 20px;
+  margin-bottom: 20px;
+  /* background-color: rgb(238, 236, 236); */
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
+
+.main-group {
+  background-color: #C3EEF9;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.group {
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-top: 6px;
+  margin-top: 6px;
+
+}
+
+.group:hover .name {
+  background-color: var(--hover-color) !important;
+  color: var(--primary-color);
+  padding-bottom: 5px;
+  /* Add your desired hover background color */
+}
+
+.group:hover .designation {
+  color: var(--primary-color);
+  padding-bottom: 5px;
+  /* Add other hover styles as needed */
+}
+
+.fa-graduation-cap {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.fa-circle-chevron-right {
+  padding-right: 8px;
+  color: rgb(223, 187, 47);
+}
+
+/* line-breaker.component.css */
+
+.line-breaker-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 3vh; */
+}
+
+.line-breaker {
+  width: 800px;
+  /* Adjust the width as needed */
+  height: 4px;
+  border-radius: 40px;
+  /* Adjust the height as needed */
+  background-color: rgb(190, 226, 192);
+  /* Adjust the color as needed */
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fa-gear {
+  color: rgb(190, 226, 192);
+}
+
 
 
 @media (max-width: 767px) {

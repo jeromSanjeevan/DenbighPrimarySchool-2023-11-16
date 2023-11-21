@@ -1,0 +1,29 @@
+@media (max-width: 767px) {
+
+  .group {
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 3px;
+    margin-top: 3px;
+
+  }
+
+  .main-group {
+    font-size: 0.8rem;
+  }
+
+  .submenu_1 {
+    font-size: 1rem;
+  }
+}
+
+.submenu_1 {
+  font-size: 1.2rem;
+  height: 3vh;
+  padding:0
+}
+
+.main-group{
+background-color: #e9f1f1;
+
+}
