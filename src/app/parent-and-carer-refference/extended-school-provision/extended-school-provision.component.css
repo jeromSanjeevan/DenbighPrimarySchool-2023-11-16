@@ -1,3 +1,4 @@
+
 .extented-school-provision-heading {
   text-align: center;
 
@@ -9,7 +10,7 @@
 }
 .main-content{
 
-background-color: bisque;
+/* background-color: bisque; */
 }
 .main-menu-content {
   min-height: 400px;
@@ -59,5 +60,83 @@ background-color: bisque;
 
 .main-menu-content{
   background-color: none;
+}
+
+.card-title{
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  padding: 3px;
+  font-size: 1rem;
+  border-radius: 60px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.card-body{
+  padding: 0;
+}
+
+.card{
+  padding: 4px;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  min-height: 260px;
+  transition: transform 0.3s ease; /* Add a smooth transition for the transform property */
+
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Move the card up by 10 pixels on hover */
+}
+
+.card li{
+  font-size: 0.8rem;
+  padding-bottom: 9px;
+  padding-right: 9px;
+  text-wrap: pretty;
+
+}
+
+.red{
+  color: red;
+}
+
+.blue{
+  color: blue;
+}
+.bold-font{
+  font-weight: 700;
+}
+
+.fa-check{
+  color: rgb(247, 200, 12);
+}
+
+.after-school{
+  margin-top: 10px;
+  /* background-color: #380f0b; */
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: rgb(247, 200, 12);
+}
+
+.section_divider{
+  margin-bottom: 30px;
+}
+
+
+@media (max-width: 767.98px) {
+  /* Apply styles only for screens up to 767.98 pixels wide (mobile view) */
+  .card {
+    min-height: auto; /* Set min-height to 'auto' to remove it */
+  }
+
+  .after-school{
+  text-align: center;
+  font-size: 1rem;
+  }
 }
 
