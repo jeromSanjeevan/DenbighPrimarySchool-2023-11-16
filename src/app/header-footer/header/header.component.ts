@@ -16,7 +16,7 @@ export class HeaderComponent {
     { label: 'School Staff', url: 'home/school-staff' },
     { label: 'House System', url: '#' },
     { label: 'School Council', url: '#' },
-    { label: '2023-24 School Development Plan', url: '#' },
+    { label: 'School Development Plan', url: '#' },
   ];
 
   curriculumAndYearGroupsMenu = [
@@ -38,8 +38,11 @@ export class HeaderComponent {
   ];
 
   safeguardingMenu = [
-    { label: 'Safeguarding at Denbigh', url: '/home' },
-    { label: 'Safeguarding Policy', url: '/about' },
+    {
+      label: 'Safeguarding at Denbigh',
+      url: 'safeguarding/safeguarding-at-denbigh',
+    },
+    { label: 'SEND at Denbigh', url: '/about' },
     { label: 'Behaviour Policy', url: 'safeguarding/behaviour-policy' },
     { label: 'Attendance', url: '/home' },
     { label: 'GDPR & Data Protection', url: '/about' },
@@ -61,13 +64,16 @@ export class HeaderComponent {
   ];
 
   parentAndCarerReferenceMenu = [
-    { label: 'School Admissions', url: '/home' },
+    { label: 'School Admissions', url: 'parent-and-carer/school-admission' },
     { label: 'The School Day', url: '/about' },
     { label: '2023-23 Academic Calendar', url: 'acadamicCalender' },
     { label: 'News and Events', url: '/home' },
     { label: 'School Uniform', url: 'parent-and-carer/school-uniform' },
     { label: 'School Contact Details', url: '/about' },
-    { label: 'Extended School Provision', url: 'parent-and-carer/extended-school-provision' },
+    {
+      label: 'Extended School Provision',
+      url: 'parent-and-carer/extended-school-provision',
+    },
   ];
   constructor() {}
 

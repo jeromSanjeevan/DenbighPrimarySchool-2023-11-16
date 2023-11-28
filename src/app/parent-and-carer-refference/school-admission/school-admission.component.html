@@ -1,0 +1,67 @@
+<div class=" main-container">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 col-4 d-none d-md-block">
+
+            </div>
+
+
+            <div class="col-md-8 col-12 bg-secondary_1 col-custom-mobile">
+
+                <!-- *********************** First Heading Starts Here **************************** -->
+                <div class="menu-heading-container">
+                    <div class="menu-headings">{{headerHeading}}</div>
+                </div>
+                <!-- *********************** First Heading Ends Here **************************** -->
+
+                <!-- *********************** Main Content Starts Here **************************** -->
+                <div class="main-content">
+
+                    <div class="group">
+
+                        <div class="note ">
+                            <ul class="fa-ul">
+                                <li><span class="note-fa fa-li"> <i class="fa-solid fa-notes-medical"></i></span>
+                                    The current arrangements that we have in place if you would like your
+                                    child to attend Denbigh Primary School is as follows:
+                                </li>
+                            </ul>
+
+
+                        </div>
+
+                        <div class="admission-steps">
+                            <ul class="fa-ul">
+                                <li *ngFor="let step of admissionSteps"> <span class="fa-li"><i
+                                            class="fas fa-check"></i></span>
+                                    {{ step }}
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="note">
+
+                            <ul class="fa-ul">
+                                <li><span class="note-fa fa-li"> <i class="fa-solid fa-notes-medical"></i></span>
+                                    The admission arrangements for Luton’s Community Schools for the
+                                    academic year 2024 are set out at:  <a class="link"
+                                    href="https://www.luton.gov.uk/Education_and_learning/Lists/LutonDocuments/PDF/LEA%20Documents%20and%20Publications/Admissions-arrangements/community-schools-admission-arrangements-2024.pdf">
+                                    <span class="fa-note"><i class="fa-solid fa-link fa-fade fa-lg"></i></span>Click
+                                    Here</a>
+                                </li>
+                            </ul>                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- *********************** Main Content Ends Here **************************** -->
+
+            </div>
+
+            <div class="col-md-2 col-4 d-none d-md-block">
+
+            </div>
+        </div>
+    </div>
+</div>

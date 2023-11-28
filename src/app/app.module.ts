@@ -16,6 +16,9 @@ import { FormsModule } from '@angular/forms';
 import { VisionAndValuesComponent } from './School/vision-and-values/vision-and-values.component';
 import { SchoolUniformComponent } from './parent-and-carer-refference/school-uniform/school-uniform.component';
 import { ExtendedSchoolProvisionComponent } from './parent-and-carer-refference/extended-school-provision/extended-school-provision.component';
+import { SafeguardingAtDenbighComponent } from './safeguarding/safeguarding-at-denbigh/safeguarding-at-denbigh/safeguarding-at-denbigh.component';
+import { SchoolAdmissionComponent } from './parent-and-carer-refference/school-admission/school-admission.component';
+import { GoverningBodyComponent } from './School/governing-body/governing-body.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +33,9 @@ import { ExtendedSchoolProvisionComponent } from './parent-and-carer-refference/
     VisionAndValuesComponent,
     SchoolUniformComponent,
     ExtendedSchoolProvisionComponent,
+    SafeguardingAtDenbighComponent,
+    SchoolAdmissionComponent,
+    GoverningBodyComponent,
   ],
   imports: [BrowserModule, AppRoutingModule,PdfViewerModule, FormsModule],
   // providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],

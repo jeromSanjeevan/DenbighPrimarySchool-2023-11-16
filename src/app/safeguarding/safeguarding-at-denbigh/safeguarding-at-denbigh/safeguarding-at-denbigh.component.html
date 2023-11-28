@@ -1,0 +1,78 @@
+<div class=" main-container">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 col-4 d-none d-md-block">
+                col -1
+            </div>
+
+
+            <div class="col-md-8 col-12 bg-secondary_1 col-custom-mobile">
+
+                <!-- *********************** First Heading Starts Here **************************** -->
+                <div class="menu-heading-container">
+                    <div class="menu-headings">{{headerHeading}}</div>
+                </div>
+                <!-- *********************** First Heading Ends Here **************************** -->
+
+                <!-- *********************** Main Content Starts Here **************************** -->
+                <div class="main-content">
+                    <div class="main-menu extented-school-provision-heading">
+                        <div>
+                            Child Protection Policy/Guidence
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <p>
+                            At Denbigh Primary School we recognise our moral and statutory responsibility to safeguard
+                            and promote the welfare of all pupils. We endeavour to provide a safe and welcoming
+                            environment where children are respected and valued. We are alert to the signs of abuse and
+                            neglect and follow our procedures to ensure that children receive effective support,
+                            protection
+                            and justice.
+                        </p>
+
+                        <p>
+                            Safeguarding our children is the responsibility of every member of staff at Denbigh. We have
+                            a
+                            dedicated safeguarding team of staff who work together to ensure the safety of all children
+                            at
+                            Denbigh.
+                        </p>
+                    </div>
+
+                    <div>
+                        <div class="safeguarding-team-heading">
+                            Safeguarding Team
+                        </div>
+                        <div class="container">
+                            <table class="table table-hover">
+                              <thead>
+                                <tr>
+                                  <th>ID</th>
+                                  <th>Name</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr  *ngFor="let team of safeGuardingTeam">
+                                  <td>{{ team.name }}</td>
+                                  <td>{{ team.designation }}</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                    </div>
+                </div>
+
+                <!-- *********************** Main Content Ends Here **************************** -->
+
+            </div>
+
+
+            <div class="col-md-2 col-4 d-none d-md-block">
+                col-3
+            </div>
+        </div>
+    </div>
+</div>

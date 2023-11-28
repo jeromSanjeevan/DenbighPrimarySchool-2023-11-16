@@ -1,0 +1,59 @@
+.safeguarding-team-heading{
+    background-color: beige;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+/* table.component.css */
+
+.container {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 700px;
+    border-collapse: collapse; /* Add border-collapse for border styling */
+  }
+  
+  th, td {
+    text-align: left; /* Align text to the left */
+    border: 1px solid #ddd; /* Add borders to cells */
+    padding: 8px; /* Add padding for better spacing */
+  }
+
+  th{
+    background-color: red !important;
+  }
+  
+  th {
+    text-align: center; /* Center-align header text */
+  }
+  
+  /* Set column widths */
+  th:first-child,
+  td:first-child {
+    width:30%;
+    background-color: lightblue;
+  }
+  
+  th:last-child,
+  td:last-child {
+    width:70%;
+    background-color: rgb(205, 230, 238);
+  }
+  
+  tr:hover {
+    background-color: yellow !important; /* Add !important to ensure the hover background color is applied */
+    cursor: pointer;
+  }
+
+
+  @media (max-width: 767.98px) {
+    /* Apply styles only for screens up to 767.98 pixels wide (mobile view) */
+    table {
+        width: 100%;
+        border-collapse: collapse; /* Add border-collapse for border styling */
+      }
+    }
+  
+  

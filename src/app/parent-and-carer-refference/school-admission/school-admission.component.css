@@ -1,0 +1,88 @@
+.fa-check {
+  color: rgb(247, 200, 12);
+}
+
+.fa-note {
+  padding-right: 10px;
+}
+
+.admission-steps {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-color: #f0f8ff;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.admission-steps li {
+  font-size: 1rem;
+  padding-bottom: 15px;
+  padding-right: 9px;
+  padding-left: 10px;
+  text-wrap: pretty;
+}
+
+.number-color {
+  color: blue; /* Change this to the color you want for numbers */
+}
+
+.link {
+  padding-left: 10px;
+}
+.note {
+  background-color: #f0f8ff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  align-items: center; /* Center content vertically */
+  display: flex; /* Enable Flexbox */
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+.note a {
+  text-decoration: none;
+  background-color: #66ff00;
+  padding: 8px;
+  color: #9e1b32;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  margin-left: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  padding-right: 17px;
+}
+
+.note-fa {
+  padding-right: 8px;
+  color: #32de84;
+  font-size: 1.7rem;
+}
+
+@media (max-width: 767.98px) {
+  .note {
+    font-size: 0.8rem;
+  }
+
+  .note a {
+    text-decoration: none;
+    background-color: #66ff00;
+    padding: 3px;
+    color: #9e1b32;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-left: 5px;
+    margin: 4px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding-right: 17px;
+  }
+  .admission-steps li {
+    font-size: 0.9rem;
+  }
+}
