@@ -1,0 +1,29 @@
+/* person.component.css */
+.row {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+
+  }
+  
+  .img-div{
+  
+
+  }
+  .card img {
+    width: 170px;
+    border-radius: 20%;
+    height: 200px;
+  }
+  
+  .card-body {
+    margin-top: 10px;
+  }
+  

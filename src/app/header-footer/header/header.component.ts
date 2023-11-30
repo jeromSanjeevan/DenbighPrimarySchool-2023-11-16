@@ -12,7 +12,7 @@ export class HeaderComponent {
   schoolSubMenus = [
     { label: 'Headteacher’s Welcome', url: 'headTeacherWelcome' },
     { label: 'School Vision and Values', url: 'home/vision-and-values' },
-    { label: 'School Governance', url: '#' },
+    { label: 'School Governance', url: 'schoo/school-governance' },
     { label: 'School Staff', url: 'home/school-staff' },
     { label: 'House System', url: '#' },
     { label: 'School Council', url: '#' },
@@ -39,9 +39,14 @@ export class HeaderComponent {
 
   safeguardingMenu = [
     {
+      label: 'Safeguarding Overview',
+      url: 'safeguarding/overview',
+    },
+    {
       label: 'Safeguarding at Denbigh',
       url: 'safeguarding/safeguarding-at-denbigh',
     },
+
     { label: 'SEND at Denbigh', url: '/about' },
     { label: 'Behaviour Policy', url: 'safeguarding/behaviour-policy' },
     { label: 'Attendance', url: '/home' },
@@ -65,11 +70,11 @@ export class HeaderComponent {
 
   parentAndCarerReferenceMenu = [
     { label: 'School Admissions', url: 'parent-and-carer/school-admission' },
-    { label: 'The School Day', url: '/about' },
-    { label: '2023-23 Academic Calendar', url: 'acadamicCalender' },
-    { label: 'News and Events', url: '/home' },
+    { label: 'The School Day', url: 'parent-and-carer/school-day' },
+    { label: 'Academic Calendar', url: 'parent-and-carer/acedemic-calendar' },
+    { label: 'News and Events', url: 'parent-and-carer/news-and-events' },
     { label: 'School Uniform', url: 'parent-and-carer/school-uniform' },
-    { label: 'School Contact Details', url: '/about' },
+    { label: 'School Contact Details', url: 'parent-and-carer/school-contact-details' },
     {
       label: 'Extended School Provision',
       url: 'parent-and-carer/extended-school-provision',

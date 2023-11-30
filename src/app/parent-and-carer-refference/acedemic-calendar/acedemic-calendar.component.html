@@ -1,0 +1,121 @@
+<div class=" main-container">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 col-4 d-none d-md-block">
+
+            </div>
+
+
+            <div class="col-md-8 col-12 bg-secondary_1 col-custom-mobile">
+
+                <!-- *********************** First Heading Starts Here **************************** -->
+                <div class="menu-heading-container">
+                    <!-- <div class="menu-headings">{{headerHeading}}</div> -->
+                </div>
+                <!-- *********************** First Heading Ends Here **************************** -->
+
+                <!-- *********************** Main Content Starts Here **************************** -->
+                <div class="main-content">
+
+                    <div class="container">
+                        <h4>
+                            Autumn Term
+                        </h4>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let term of autumnTerm">
+                                    <td>{{ term.term }}</td>
+                                    <td>{{ term.period }}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="container">
+                        <h4>
+                            Spring Term
+                        </h4>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let term of springTerm">
+                                    <td>{{ term.term }}</td>
+                                    <td>{{ term.period }}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="container">
+                        <h4>
+                            Summer Term
+                        </h4>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let term of summerTerm">
+                                    <td>{{ term.term }}</td>
+                                    <td>{{ term.period }}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="container">
+                        <h4>
+                            INSET Days and Holidays
+                        </h4>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let term of insetDaysAndHolidaysates">
+                                    <td>{{ term.term }}</td>
+                                    <td>{{ term.period }}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div>
+                        <div>
+                            <h4>Bank Holidays in Term </h4>
+                            <p>Monday 06 May 2024 - Bank Holiday
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="pdf-div">
+
+                        <button class="btn btn-primary" *ngFor="let pdfLink of googleDrivePdfLinks"
+                            (click)="openPdfInNewTab(pdfLink)">
+                            {{ pdfLink.name }} <span><i class="fa-solid fa-file fa-flip"
+                                    style="color: #e81111;"></i></span>
+                        </button>
+                    </div>
+                   
+                </div>
+
+                <div class="col-md-2 col-4 d-none d-md-block">
+
+                </div>
+            </div>
+        </div>
+    </div>

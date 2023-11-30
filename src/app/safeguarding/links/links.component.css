@@ -1,0 +1,36 @@
+.row {
+  margin-bottom: 20px;
+}
+
+.main-cont{
+    margin-bottom: 10px;
+}
+
+.cont{
+ border: salmon solid 2px;
+    padding: 20px;
+    border-radius: 20px;
+    min-height: 290px;
+}
+.img-div {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 40px;
+}
+
+.img-div img {
+  width: 120px;
+  height: 120px;
+}
+
+
+.col-md-8 h4 {
+  font-size: 1.3rem;
+
+}
+.col-md-8 p {
+  padding-top: 10px;
+  font-size: 0.9rem;
+  text-align: justify;
+}

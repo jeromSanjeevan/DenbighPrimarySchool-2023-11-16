@@ -1,0 +1,79 @@
+<div class=" main-container">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 col-4 d-none d-md-block">
+
+            </div>
+
+
+            <div class="col-md-8 col-12 bg-secondary_1 col-custom-mobile">
+
+                <!-- *********************** First Heading Starts Here **************************** -->
+                <div class="menu-heading-container">
+                    <div class="menu-headings">{{headerHeading}}</div>
+                </div>
+                <!-- *********************** First Heading Ends Here **************************** -->
+
+                <!-- *********************** Main Content Starts Here **************************** -->
+                <div class="main-content">
+
+                    <div>
+                        <div>
+                            The School Day - Pupils
+                        </div>
+                        <p>
+                            The school day starts at 8.50am and finishes at 3.15pm. Children arriving after 8.50am are
+                            recorded as “Late”.
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>
+                            Children may enter school from 8.40am to take part in morning challenge within their
+                            classrooms.
+                        </p>
+                        <p>Children may attend Breakfast Club from 08.00am</p>
+                    </div>
+
+                    <div>
+                        Daily Timetable
+
+                        <p>The school day at Denbigh Primary School operates from 08:40 to 15:15. After school clubs
+                            operate on a daily basis from 15:15 to 16:00. Key Stage 1 children receive fruit during
+                            their morning break time and have a second break time in the afternoon.
+                        </p>
+
+                        <div class="container">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Time</th>
+                                        <th>Start Of Day</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr *ngFor="let team of safeGuardingTeam">
+                                        <td>{{ team.time }}</td>
+                                        <td>{{ team.day }}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+                <!-- *********************** Main Content Ends Here **************************** -->
+
+            </div>
+
+            <div class="col-md-2 col-4 d-none d-md-block">
+
+            </div>
+        </div>
+    </div>
+</div>

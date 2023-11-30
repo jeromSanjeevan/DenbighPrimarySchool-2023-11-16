@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header-footer/header/header.component';
 import { FooterComponent } from './header-footer/footer/footer.component';
@@ -19,6 +20,16 @@ import { ExtendedSchoolProvisionComponent } from './parent-and-carer-refference/
 import { SafeguardingAtDenbighComponent } from './safeguarding/safeguarding-at-denbigh/safeguarding-at-denbigh/safeguarding-at-denbigh.component';
 import { SchoolAdmissionComponent } from './parent-and-carer-refference/school-admission/school-admission.component';
 import { GoverningBodyComponent } from './School/governing-body/governing-body.component';
+import { SafeguardingTeamComponent } from './safeguarding/safeguarding-team/safeguarding-team.component';
+import { OurStatmentComponent } from './safeguarding/our-statment/our-statment.component';
+import { OurTeamComponent } from './safeguarding/our-team/our-team.component';
+import { OurPoliciesComponent } from './safeguarding/our-policies/our-policies.component';
+import { LinksComponent } from './safeguarding/links/links.component';
+import { SchoolDayComponent } from './parent-and-carer-refference/school-day/school-day.component';
+import { NewsAndEventsComponent } from './parent-and-carer-refference/news-and-events/news-and-events.component';
+import { SchoolContactDetailsComponent } from './parent-and-carer-refference/school-contact-details/school-contact-details.component';
+import { AcedemicCalendarComponent } from './parent-and-carer-refference/acedemic-calendar/acedemic-calendar.component';
+import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 
 @NgModule({
   declarations: [
@@ -36,10 +47,26 @@ import { GoverningBodyComponent } from './School/governing-body/governing-body.c
     SafeguardingAtDenbighComponent,
     SchoolAdmissionComponent,
     GoverningBodyComponent,
+    SafeguardingTeamComponent,
+    OurStatmentComponent,
+    OurTeamComponent,
+    OurPoliciesComponent,
+    LinksComponent,
+    SchoolDayComponent,
+    NewsAndEventsComponent,
+    SchoolContactDetailsComponent,
+    AcedemicCalendarComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule,PdfViewerModule, FormsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    PdfViewerModule,
+    FormsModule,
+    NgxExtendedPdfViewerModule,
+    HttpClientModule
+  ],
   // providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
-   providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
 
   bootstrap: [AppComponent],
 })
