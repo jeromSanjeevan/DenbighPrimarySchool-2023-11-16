@@ -42,19 +42,19 @@ const routes: Routes = [
   },
 
   {
-    path: 'safeguarding/safeguarding-team/our-statment',
+    path: 'safeguarding/safeguarding-at-denbigh/our-statment',
     component: OurStatmentComponent,
   },
   {
-    path: 'safeguarding/safeguarding-team/our-team',
+    path: 'safeguarding/safeguarding-at-denbigh/our-team',
     component: OurTeamComponent,
   },
   {
-    path: 'safeguarding/safeguarding-team/our-policies',
+    path: 'safeguarding/safeguarding-at-denbigh/our-policies',
     component: OurPoliciesComponent,
   },
   {
-    path: 'safeguarding/safeguarding-team/links',
+    path: 'safeguarding/safeguarding-at-denbigh/links',
     component: LinksComponent,
   },
 
