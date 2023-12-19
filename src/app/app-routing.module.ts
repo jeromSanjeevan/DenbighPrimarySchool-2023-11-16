@@ -18,15 +18,15 @@ import { NewsAndEventsComponent } from './parent-and-carer-refference/news-and-e
 import { SchoolContactDetailsComponent } from './parent-and-carer-refference/school-contact-details/school-contact-details.component';
 import { AcedemicCalendarComponent } from './parent-and-carer-refference/acedemic-calendar/acedemic-calendar.component';
 import { GoverningBodyComponent } from './School/governing-body/governing-body.component';
+import { HeadTeacherWelcomeComponent } from './School/head-teacher-welcome/head-teacher-welcome.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
-
+  { path: 'school/head-teacher-welcome', component: HeadTeacherWelcomeComponent },
   { path: 'home/school-staff', component: SchoolStaffsComponent },
   { path: 'home/vision-and-values', component: VisionAndValuesComponent },
   { path: 'schoo/school-governance', component: GoverningBodyComponent },
-  
 
   {
     path: 'safeguarding/behaviour-policy',

@@ -1,8 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 /* ============================ Common CSS ====================================== */
 
-
-
 /* Define root colors */
 :root {
   --primary-color: #002244;
@@ -15,22 +13,48 @@ body {
   /* background-color: var(--primary-color);
   color: var(--secondary-color); */
   /* font-family: 'Nunito Sans', sans-serif; */
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   /* font-family: 'Nunito Sans', sans-serif;
   font-family: 'Roboto', sans-serif; */
 }
 
+/* Common Styles */
 
-
-
-
+/******************************************************************* */
 .main-container {
   padding-top: 90px;
 }
 
+.content-bg{
+  background-color: #e9f1f1;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
 
+.content-container {
+  padding: 40px;
+}
 
+.page-content-para-heading {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+}
+.page-content-para {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+  text-align: justify;
+  /* font-family: 'Roboto', sans-serif; */
+}
 
+.page-content-para p {
+  font-size: 14px;
+
+}
+
+/* ****************************************************************** */
 .menu-heading-container {
   display: flex;
   justify-content: center;
@@ -52,7 +76,7 @@ body {
   font-weight: 600;
   padding-top: 3px;
   padding-bottom: 3px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 1.4rem;
   background-color: rgb(86, 100, 7);
   text-transform: uppercase;
@@ -62,11 +86,10 @@ body {
 
 .main-menu-content {
   background-color: #e9f1f1;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   margin-bottom: 25px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
   text-align: left;
-
 }
 
 .submenu_1 {
@@ -79,9 +102,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   border-top-left-radius: 25px;
-  font-family: 'Nunito Sans', sans-serif;
-
-
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .main-content {
@@ -95,7 +116,7 @@ body {
 }
 
 .main-group {
-  background-color: #C3EEF9;
+  background-color: #c3eef9;
   border-radius: 25px;
   margin-bottom: 25px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
@@ -106,7 +127,6 @@ body {
   padding-left: 20px;
   padding-top: 6px;
   margin-top: 6px;
-
 }
 
 .group:hover .name {
@@ -156,8 +176,6 @@ body {
 .fa-gear {
   color: rgb(190, 226, 192);
 }
-
-
 
 @media (max-width: 767px) {
   .menu-headings {

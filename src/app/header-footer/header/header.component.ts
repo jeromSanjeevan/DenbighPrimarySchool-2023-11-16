@@ -10,9 +10,9 @@ export class HeaderComponent {
   navBarLogo: string = 'assets/denbigh_logo/den_logo.png';
 
   schoolSubMenus = [
-    { label: 'Headteacher’s Welcome', url: 'headTeacherWelcome' },
+    { label: 'Headteacher’s Welcome', url: 'school/head-teacher-welcome' },
     { label: 'School Vision and Values', url: 'home/vision-and-values' },
-    { label: 'School Governance', url: 'schoo/school-governance' },
+    { label: 'School Governance', url: 'school/school-governance' },
     { label: 'School Staff', url: 'home/school-staff' },
     { label: 'House System', url: '#' },
     { label: 'School Council', url: '#' },

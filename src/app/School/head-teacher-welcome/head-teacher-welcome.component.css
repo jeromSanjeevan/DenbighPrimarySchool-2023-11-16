@@ -1,0 +1,6 @@
+.passport-size {
+  border-radius: 20px;
+  width: 230px; /* Set your desired width */
+  height: 260px; /* Set your desired height */
+  object-fit: fit; /* Maintain aspect ratio and cover the specified dimensions */
+}
