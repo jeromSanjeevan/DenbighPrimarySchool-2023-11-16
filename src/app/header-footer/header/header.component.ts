@@ -54,7 +54,7 @@ export class HeaderComponent {
   ];
 
   schoolLunchesMenu = [
-    { label: 'School Lunch Menu', url: '' },
+    { label: 'School Lunch Menu', url: 'school-lunches/school-lunch-menu' },
     { label: 'School Meal Payments', url: '#' },
     { label: 'Whole School Food & Packed Lunch Policy', url: '#' },
   ];

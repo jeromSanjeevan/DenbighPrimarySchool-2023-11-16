@@ -18,14 +18,36 @@ body {
   font-family: 'Roboto', sans-serif; */
 }
 
+/* Main Layout Styles For Each Page Starts Here */
+.main-container {
+  padding-top: 90px;
+  background-color: rgba(129, 71, 32, 0.363);
+}
+
+.menu-heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 7vh;
+  background-color: var(--primary-color) !important;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.menu-headings {
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+}
+
+/* Main Layout Styles For Each Page Ends Here */
+
 /* Common Styles */
 
 /******************************************************************* */
-.main-container {
-  padding-top: 90px;
-}
 
-.content-bg{
+.content-bg {
   background-color: #e9f1f1;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
@@ -51,25 +73,9 @@ body {
 
 .page-content-para p {
   font-size: 14px;
-
 }
 
 /* ****************************************************************** */
-.menu-heading-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 7vh;
-  background-color: var(--primary-color) !important;
-  color: white;
-}
-
-.menu-headings {
-  text-align: center;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 1.4rem;
-}
 
 .main-menu {
   color: white;

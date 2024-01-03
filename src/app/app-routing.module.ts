@@ -19,6 +19,7 @@ import { SchoolContactDetailsComponent } from './parent-and-carer-refference/sch
 import { AcedemicCalendarComponent } from './parent-and-carer-refference/acedemic-calendar/acedemic-calendar.component';
 import { GoverningBodyComponent } from './School/governing-body/governing-body.component';
 import { HeadTeacherWelcomeComponent } from './School/head-teacher-welcome/head-teacher-welcome.component';
+import { SchoolLunchMenuComponent } from './school-Lunches/school-lunch-menu/school-lunch-menu.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -56,6 +57,11 @@ const routes: Routes = [
   {
     path: 'safeguarding/safeguarding-at-denbigh/links',
     component: LinksComponent,
+  },
+
+  {
+    path: 'school-lunches/school-lunch-menu',
+    component: SchoolLunchMenuComponent,
   },
 
   {

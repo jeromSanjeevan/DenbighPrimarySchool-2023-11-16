@@ -31,6 +31,8 @@ import { SchoolContactDetailsComponent } from './parent-and-carer-refference/sch
 import { AcedemicCalendarComponent } from './parent-and-carer-refference/acedemic-calendar/acedemic-calendar.component';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 import { HeadTeacherWelcomeComponent } from './School/head-teacher-welcome/head-teacher-welcome.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { SchoolLunchMenuComponent } from './school-Lunches/school-lunch-menu/school-lunch-menu.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +60,8 @@ import { HeadTeacherWelcomeComponent } from './School/head-teacher-welcome/head-
     SchoolContactDetailsComponent,
     AcedemicCalendarComponent,
     HeadTeacherWelcomeComponent,
+    SidebarComponent,
+    SchoolLunchMenuComponent,
   ],
   imports: [
     BrowserModule,
