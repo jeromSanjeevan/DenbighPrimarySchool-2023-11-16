@@ -33,6 +33,7 @@ import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 import { HeadTeacherWelcomeComponent } from './School/head-teacher-welcome/head-teacher-welcome.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { SchoolLunchMenuComponent } from './school-Lunches/school-lunch-menu/school-lunch-menu.component';
+import { YearOneComponent } from './curriculum-year-groups/year-one/year-one.component';
 
 @NgModule({
   declarations: [
@@ -62,6 +63,7 @@ import { SchoolLunchMenuComponent } from './school-Lunches/school-lunch-menu/sch
     HeadTeacherWelcomeComponent,
     SidebarComponent,
     SchoolLunchMenuComponent,
+    YearOneComponent,
   ],
   imports: [
     BrowserModule,

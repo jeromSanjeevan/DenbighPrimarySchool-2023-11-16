@@ -21,7 +21,7 @@ body {
 /* Main Layout Styles For Each Page Starts Here */
 .main-container {
   padding-top: 90px;
-  background-color: rgba(129, 71, 32, 0.363);
+  background-color:#f0f0f0;
 }
 
 .menu-heading-container {
