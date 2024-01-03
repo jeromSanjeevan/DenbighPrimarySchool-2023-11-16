@@ -27,3 +27,25 @@
 background-color: #e9f1f1;
 
 }
+
+
+.uniform-div{
+  padding-left:20px ;
+}
+
+
+.section-image {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.section-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
