@@ -1,1 +1,210 @@
-<p>year-one works!</p>
+<div class=" main-container">
+    <div class="row">
+        <div class="page-banner">
+            <img class="page-banner-img" src="assets/slider_images/1.jpeg" alt="">
+            <div class="text-overlay menu-headings"><span> <i class="fas fa-graduation-cap"></i></span>
+                Year 1 Overview</div>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Col 1 -->
+        <div class="col-md-2 col-4 d-none d-md-block">
+
+        </div>
+
+        <!-- Col 2 -->
+        <div class="col-md-8 col-12 bg-secondary_1 col-custom-mobile">
+            <div class="row">
+
+            </div>
+            <div class="row">
+
+                <div class="col-md-12 col-12">
+
+                    <div class="col-section">
+
+
+                        <div class="section-content" (click)="toggleRowVisibilityEnglish()">
+                            <span class="toggler" style="float: right; padding-right: 40px;"
+                                [ngClass]="{'arrow-up': isSectionOpenEnglish, 'arrow-down': !isSectionOpenEnglish, 'up': isSectionOpenEnglish}">
+                                <i class="fa-solid"></i>
+                            </span>
+                            <p class="heading-p"><span><i class="fas fa-star"></i></span> Welcome to Year 1 at Denbigh
+                                Primary School!</p>
+
+                            <p class="content-p">This year, your child will move onto the learning based around the
+                                National Curriculum
+                                and
+                                also take part in continuous provision. Continuous provision is all of the different
+                                areas
+                                which are available for your children to use every day. Within each of these areas of
+                                provision there are a core range of resources that children can use all of the time,
+                                throughout the whole year which will challenge their thinking and help them to embed
+                                concepts.</p>
+                        </div>
+
+                        <div class="section-content" [@toggleAnimation]="isSectionOpenEnglish ? 'open' : 'closed'">
+                            <p class="sub-heading-p"><span><i class="fas fa-flag"></i></span> English</p>
+
+                            <p class="content-p">In Year 1, we build on the children’s learning from the Read, Write
+                                Inc. phonics
+                                programme in
+                                EYFS and teach the children to read further sounds, words and storybooks to develop
+                                their
+                                word reading and comprehension skills.</p>
+
+                            <p class="content-p">
+                                They develop speedy reading and apply their sound knowledge by reading nonsense words.
+                                In
+                                June, pupils in Year 1 take the government Phonics Screening Check
+                                <span
+                                    class="link-span">(https://www.gov.uk/government/publications/phonics-screening-check-information-for-parents)</span>
+                                where they will read 20 real words and 20 nonsense words.
+                            </p>
+
+                            <p class="content-p">
+                                The Read, Write Inc. programme is excellent in teaching our children the sounds and
+                                skills
+                                they need for this. In previous years, the pass mark has been 32/40 (but this is not
+                                released until after pupils have taken the check and could change).
+
+                            </p>
+                            <div>
+                                <div class="heading-ul">Children Will:</div>
+                                <ul class="fa-ul">
+                                    <li><span class="note-fa fa-li"> <i class="fas fa-check"></i></span>Consolidate
+                                        their learning of
+                                        phonics</li>
+                                    <li><span class="note-fa fa-li"> <i class="fas fa-check"></i></span>Be encouraged to
+                                        read a wide
+                                        range of stories and listen to poems which they will start to recite by heart
+                                    </li>
+                                    <li><span class="note-fa fa-li"> <i class="fas fa-check"></i></span>Learn to spell a
+                                        range of words
+                                        containing the sounds already taught (e.g., light, read, think, etc.)</li>
+                                    <li><span class="note-fa fa-li"> <i class="fas fa-check"></i></span>Learn to form
+                                        all the letters of
+                                        the alphabet in lower case and capitals, plus the digits 0 to 9</li>
+                                    <li><span class="note-fa fa-li"> <i class="fas fa-check"></i></span>Sequence
+                                        sentences to form short
+                                        stories</li>
+                                    <li><span class="note-fa fa-li"> <i class="fas fa-check"></i></span>Punctuate
+                                        sentences with a
+                                        capital and full stop and will begin to learn about question marks and
+                                        exclamation marks</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-12">
+                    <div class="col-section">
+                        <div class="section-content">
+                            <p class="sub-heading-p"><span><i class="fas fa-flag"></i></span> Mathematics</p>
+
+                            <div>
+
+                                <div class="heading-ul">Children Will:</div>
+                                <ul class="fa-ul">
+                                    <li><span class="note-fa fa-li"> <i class="fas fa-check"></i></span>Count forwards
+                                        and backwards up to 100</li>
+                                    <li><span class="note-fa fa-li"> <i class="fas fa-check"></i></span>Know their
+                                        addition and subtraction facts to 20</li>
+                                    <li><span class="note-fa fa-li"> <i class="fas fa-check"></i></span>Start to learn
+                                        about times tables through the use of simple multiplication and division
+                                        problems, for which they will be given objects to help them work out what is
+                                        being asked</li>
+                                    <li><span class="note-fa fa-li"> <i class="fas fa-check"></i></span>Find half and a
+                                        quarter of a shape or quantity</li>
+                                    <li><span class="note-fa fa-li"> <i class="fas fa-check"></i></span>Start to measure
+                                        using standard units and will learn to tell the time to the hour and half-hour
+                                    </li>
+                                    <li><span class="note-fa fa-li"> <i class="fas fa-check"></i></span>Learn to name
+                                        some common 2D and 3D shapes</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-12">
+                    <div class="col-section">
+                        <div class="section-content">
+                            <p class="sub-heading-p"><span><i class="fas fa-flag"></i></span> Topics</p>
+
+                            <p class="content-p">Our exciting topics cover the full range of science, computing and
+                                foundation subjects linked to the National Curriculum. Our topics are:</p>
+
+                            <div>
+
+                                <div class="topics-ul">Storytellers</div>
+                                <ul class="fa-ul">
+                                    <li><span class="note-fa fa-li"> <i class="fas fa-check"></i></span>Through stories,
+                                        pupils learn about human and physical features of different places.
+                                    </li>
+                                </ul>
+
+                                <div class="topics-ul">Super Humans</div>
+                                <ul class="fa-ul">
+                                    <li><span class="note-fa fa-li"> <i class="fas fa-check"></i></span>Pupils discover
+                                        the 5 senses through practical scientific enquiry and learn just how super the
+                                        human body is.
+                                    </li>
+                                </ul>
+                                <div class="topics-ul">Time Travellers</div>
+                                <ul class="fa-ul">
+                                    <li><span class="note-fa fa-li"> <i class="fas fa-check"></i></span>This history
+                                        based topic teaches pupils about some key moments in history including the great
+                                        fire of London and the first moon landing.
+
+                                    </li>
+                                </ul>
+                                <div class="topics-ul">Live and Let Live</div>
+                                <ul class="fa-ul">
+                                    <li><span class="note-fa fa-li"> <i class="fas fa-check"></i></span>Pupils develop
+                                        their scientific knowledge and understanding to learn about humans, animals and
+                                        plants. They explore life cycles and use their design and technology skills to
+                                        make a bird feeder.
+                                    </li>
+                                </ul>
+                                <div class="topics-ul">What’s it made of?</div>
+                                <ul class="fa-ul">
+                                    <li><span class="note-fa fa-li"> <i class="fas fa-check"></i></span>This science
+                                        based topic covers exploring what objects are made of and how materials can be
+                                        grouped and changed. They explore the use of materials in the real world.
+                                    </li>
+                                </ul>
+                                <div class="topics-ul">Hooray! Let’s go on holiday</div>
+                                <ul class="fa-ul">
+                                    <li><span class="note-fa fa-li"> <i class="fas fa-check"></i></span>In this topic,
+                                        pupils use their geography skills to name and locate the continents and oceans
+                                        of the world and the countries making up the United Kingdom. They look at
+                                        seasonal and daily weather patterns and holiday safety.
+
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Col 3 -->
+        <div class="col-md-2 col-4 d-none d-md-block">
+
+        </div>
+    </div>
+</div>

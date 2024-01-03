@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
@@ -71,7 +72,9 @@ import { YearOneComponent } from './curriculum-year-groups/year-one/year-one.com
     PdfViewerModule,
     FormsModule,
     NgxExtendedPdfViewerModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
+    
   ],
   // providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
   providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],

@@ -20,6 +20,7 @@ import { AcedemicCalendarComponent } from './parent-and-carer-refference/acedemi
 import { GoverningBodyComponent } from './School/governing-body/governing-body.component';
 import { HeadTeacherWelcomeComponent } from './School/head-teacher-welcome/head-teacher-welcome.component';
 import { SchoolLunchMenuComponent } from './school-Lunches/school-lunch-menu/school-lunch-menu.component';
+import { YearOneComponent } from './curriculum-year-groups/year-one/year-one.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -28,6 +29,9 @@ const routes: Routes = [
   { path: 'home/school-staff', component: SchoolStaffsComponent },
   { path: 'home/vision-and-values', component: VisionAndValuesComponent },
   { path: 'schoo/school-governance', component: GoverningBodyComponent },
+
+
+  { path: 'curiculum-year-groups/year-one', component: YearOneComponent },
 
   {
     path: 'safeguarding/behaviour-policy',

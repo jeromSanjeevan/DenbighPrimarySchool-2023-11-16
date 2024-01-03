@@ -23,7 +23,7 @@ export class HeaderComponent {
     { label: 'Curriculum Overview', url: '#' },
     { label: 'Beyond the Curriculum', url: '#' },
     { label: 'Reception', url: '#' },
-    { label: 'Year 1', url: '#' },
+    { label: 'Year 1', url: 'curiculum-year-groups/year-one' },
     { label: 'Year 2', url: '#' },
     { label: 'Year 3', url: '#' },
     { label: 'Year 4', url: '#' },
@@ -74,7 +74,10 @@ export class HeaderComponent {
     { label: 'Academic Calendar', url: 'parent-and-carer/acedemic-calendar' },
     { label: 'News and Events', url: 'parent-and-carer/news-and-events' },
     { label: 'School Uniform', url: 'parent-and-carer/school-uniform' },
-    { label: 'School Contact Details', url: 'parent-and-carer/school-contact-details' },
+    {
+      label: 'School Contact Details',
+      url: 'parent-and-carer/school-contact-details',
+    },
     {
       label: 'Extended School Provision',
       url: 'parent-and-carer/extended-school-provision',
