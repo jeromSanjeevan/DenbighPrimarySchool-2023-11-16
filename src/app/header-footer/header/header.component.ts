@@ -22,9 +22,9 @@ export class HeaderComponent {
   curriculumAndYearGroupsMenu = [
     { label: 'Curriculum Overview', url: '#' },
     { label: 'Beyond the Curriculum', url: '#' },
-    { label: 'Reception', url: '#' },
+    { label: 'Reception', url: 'curiculum-year-groups/reception' },
     { label: 'Year 1', url: 'curiculum-year-groups/year-one' },
-    { label: 'Year 2', url: '#' },
+    { label: 'Year 2', url: 'curiculum-year-groups/year-two' },
     { label: 'Year 3', url: '#' },
     { label: 'Year 4', url: '#' },
     { label: 'Year 5', url: '#' },

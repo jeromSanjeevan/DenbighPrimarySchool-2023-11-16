@@ -35,6 +35,8 @@ import { HeadTeacherWelcomeComponent } from './School/head-teacher-welcome/head-
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { SchoolLunchMenuComponent } from './school-Lunches/school-lunch-menu/school-lunch-menu.component';
 import { YearOneComponent } from './curriculum-year-groups/year-one/year-one.component';
+import { ReceptionComponent } from './curriculum-year-groups/reception/reception.component';
+import { YearTwoComponent } from './curriculum-year-groups/year-two/year-two.component';
 
 @NgModule({
   declarations: [
@@ -65,6 +67,8 @@ import { YearOneComponent } from './curriculum-year-groups/year-one/year-one.com
     SidebarComponent,
     SchoolLunchMenuComponent,
     YearOneComponent,
+    ReceptionComponent,
+    YearTwoComponent,
   ],
   imports: [
     BrowserModule,
