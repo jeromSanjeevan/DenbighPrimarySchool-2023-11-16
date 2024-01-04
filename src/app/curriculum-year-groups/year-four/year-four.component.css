@@ -1,0 +1,64 @@
+.section-image {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.section-image img {
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.section-image-row {
+  position: relative;
+  max-width: 200px;
+  height: 180px;
+  overflow: hidden;
+  margin-right: 20px;
+
+  padding-bottom: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.section-image-row img {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: fill;
+}
+
+.row-img {
+  padding: 20px;
+  margin: 10px;
+}
+
+@media (max-width: 767px) {
+  .section-image-row {
+    position: relative;
+    max-width: 100%;
+    height: 360px;
+    overflow: hidden;
+
+    margin-left: 20px;
+    margin-bottom: 20px;
+ 
+    border-radius: 10px;
+    background-color: white;
+  }
+
+  .section-image-row img {
+
+    width: 100%;
+
+    display: block;
+    object-fit: fill;
+  }
+}

@@ -37,6 +37,7 @@ import { SchoolLunchMenuComponent } from './school-Lunches/school-lunch-menu/sch
 import { YearOneComponent } from './curriculum-year-groups/year-one/year-one.component';
 import { ReceptionComponent } from './curriculum-year-groups/reception/reception.component';
 import { YearTwoComponent } from './curriculum-year-groups/year-two/year-two.component';
+import { YearFourComponent } from './curriculum-year-groups/year-four/year-four.component';
 
 @NgModule({
   declarations: [
@@ -69,6 +70,7 @@ import { YearTwoComponent } from './curriculum-year-groups/year-two/year-two.com
     YearOneComponent,
     ReceptionComponent,
     YearTwoComponent,
+    YearFourComponent,
   ],
   imports: [
     BrowserModule,

@@ -23,6 +23,7 @@ import { SchoolLunchMenuComponent } from './school-Lunches/school-lunch-menu/sch
 import { YearOneComponent } from './curriculum-year-groups/year-one/year-one.component';
 import { ReceptionComponent } from './curriculum-year-groups/reception/reception.component';
 import { YearTwoComponent } from './curriculum-year-groups/year-two/year-two.component';
+import { YearFourComponent } from './curriculum-year-groups/year-four/year-four.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -35,6 +36,7 @@ const routes: Routes = [
 
   { path: 'curiculum-year-groups/year-one', component: YearOneComponent },
   { path: 'curiculum-year-groups/year-two', component: YearTwoComponent },
+  { path: 'curiculum-year-groups/year-four', component: YearFourComponent },
 
   {
     path: 'safeguarding/behaviour-policy',

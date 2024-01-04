@@ -26,7 +26,7 @@ export class HeaderComponent {
     { label: 'Year 1', url: 'curiculum-year-groups/year-one' },
     { label: 'Year 2', url: 'curiculum-year-groups/year-two' },
     { label: 'Year 3', url: '#' },
-    { label: 'Year 4', url: '#' },
+    { label: 'Year 4', url: 'curiculum-year-groups/year-four' },
     { label: 'Year 5', url: '#' },
     { label: 'Year 6', url: '#' },
     { label: 'English & Languages Curriculum Team', url: '#' },
